@@ -14,6 +14,18 @@ html{
     padding: 100px 24px;    
 }
 
+.plashki {
+    list-style: none;
+}
+
+.plashki li{
+    display: flex;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 25px;
+    margin: 10px;
+}
+    
 /* Button */
 
 .button {
