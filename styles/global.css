@@ -1,0 +1,35 @@
+:root {
+    --color-primary: #6c38cc;
+    --color-primary-hover: #5b2bb2;
+    --color-secondary: #E47AD5;
+    --color-text: #FAFAFA;
+    --color-link-hover: #AFB2BF;
+    --color-bg:#16171D;
+    --color-bg-medium: #1E1F29;
+    --color-bg-light: #2E2D3D;
+    --color-stroke: #4D5064;
+    --color-footer: #101114;
+    
+    --border-8: 8px;
+    --border-10: 10px;
+    --layout-width: 1172px;
+    --gradient: linear-gradient(rgba(215, 123, 229, 1), rgba(190, 99, 229, 1), rgba(108, 56, 204, 1));
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background: var(--color-bg);
+    margin: 0;
+    font-family: 'Fira Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
